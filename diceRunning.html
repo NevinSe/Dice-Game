@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>More Complex than "War"</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	
+</head>
+<body>
+	<script src="diceGame.js"></script>
+	<div class="container">
+		<div class="row">
+			<div>Rules For the Game:</div>
+			<div class="w-100"></div>
+			<div>Roll a 20 sided die to see who attacks (if values match, reroll).</div>
+			<div class="w-100"></div>
+			<div>Roll a 6 sided die to determine Attack Value.</div>
+			<div class="w-100"></div>
+			<div>Roll a 4 sided die to determine Critical Hit multiplier.</div>
+			<div class="w-100"></div>
+			<div>Roll a 10 sided die to determine if attacked player can heal.</div>
+			<div class="w-100"></div>
+			<div>Roll a 8 sided die to find the value of health healed if succesful.</div>
+			<div class="w-100"></div>
+			<div>And finally, roll a 12 sided die to determine the value of gold stolen from attacked player.</div>
+			<div class="w-100"></div>
+			<div>Repeat until one player runs out of health.</div>
+
+
+		</div>
+	</div>
+
+	<center><button onClick="runTheGauntlet()">Begin the game!</button>
+	<br>
+	<div id = "result1"></div>
+	<div id = "result2"></div>
+	<div id = "result3"></div>
+	<div id = "result4"></div>
+	<div id = "result5"></div>
+	<div id = "result6"></div>
+	<div id = "result7"></div>
+	<div id = "result8"></div>
+	</center>
+
+	<div id= "attack"></div>
+
+</body>
+</html>
